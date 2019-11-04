@@ -1,0 +1,9 @@
+testcase：存放测试用例或请求的json文件。
+config：配置文件。
+report：测试报告和日志文件及其归档。
+untils：工具集，send_request用来发送请求，
+                email_tool用来发送邮件，
+                excel_tool用来读取Excel中的数据，
+                check_result用来校验结果，
+                run_main用例执行入口，
+                log_trace用来追踪日志。

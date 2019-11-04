@@ -1,0 +1,27 @@
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:38]  Begin to run test case : 获取token,case number :1.0
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:39]  Request method type is :GET
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:40]  Request URL:https://twww.bitasset.cc:7001/proxy/user/token
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:41]  Request Body:{}
+Thu, 31 Oct 2019 17:12:40 INFO1 send_request.py [line:25]  {'cookie': 'JSESSIONID=8e5051e0-905e-4193-ad22-2feac7cd696c', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36', 'content-type': 'application/json'}
+Thu, 31 Oct 2019 17:12:40 INFO1 check_result.py [line:27]  Begin to check result of  testcase.
+Thu, 31 Oct 2019 17:12:40 INFO1 check_result.py [line:57]  8e5051e0-905e-4193-ad22-2feac7cd696c is equal to 8e5051e0-905e-4193-ad22-2feac7cd696c
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:55]  Test case 获取token run sucess.
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:66]  Response is:"8e5051e0-905e-4193-ad22-2feac7cd696c"
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:38]  Begin to run test case : 现货下单,case number :2.0
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:39]  Request method type is :POST
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:40]  Request URL:https://twww.bitasset.cc:7001/proxy/authverify/valid
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:41]  Request Body:{
+  "businessData": "{\"contractId\":1,\"side\":-1,\"price\":\"10\",\"quantity\":\"1\",\"orderType\":1,\"timeInForce\":2}",
+  "businessType": "PlaceOrder"
+}
+Thu, 31 Oct 2019 17:12:40 INFO1 send_request.py [line:25]  {'cookie': 'JSESSIONID=8e5051e0-905e-4193-ad22-2feac7cd696c', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36', 'content-type': 'application/json'}
+Thu, 31 Oct 2019 17:12:40 INFO1 check_result.py [line:27]  Begin to check result of  testcase.
+Thu, 31 Oct 2019 17:12:40 INFO1 check_result.py [line:36]  200 is equal to 200
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:55]  Test case 现货下单 run sucess.
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:66]  Response is:"{\n  \"code\" : \"200\",\n  \"msg\" : \"\u64cd\u4f5c\u6210\u529f\",\n  \"data\" : {\n    \"authType\" : \"placeOrderSuccess\"\n  },\n  \"hasError\" : false\n}"
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:78]  -----------------------------------------------------------
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:79]  本次一共运行：2 个用例
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:80]  本次运行通过：2 个用例
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:81]  本次运行跳过：0 个用例
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:82]  跳过的用例：[]
+Thu, 31 Oct 2019 17:12:40 INFO1 run_main.py [line:83]  -----------------------------------------------------------
